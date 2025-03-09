@@ -1,1 +1,41 @@
+# Full-Stack Card Games Application
 
+A professional-grade card games application built with Java and MySQL, designed with scalability and future enhancements in mind. This project serves as both a demonstration of software engineering principles and a foundation for more advanced features.
+
+## Current Features
+✔ Full user authentication system (MySQL-backed)  
+✔ Session tracking & logging for user activity  
+✔ Dynamic JavaFX UI
+✔ Modular architecture for scalability  
+
+## Roadmap: What’s Next?
+Machine Learning AI Opponents (Python-based) – Implementing AI-driven poker players for dynamic and competitive play 
+Multiple Poker Variants – Expanding beyond Texas Hold’em to include games like Blackjack
+Secure Authentication & Email Automation – Implementing secure password storage and automated verification emails  
+Web Hosting – Deploying the game online for accessibility beyond desktop and multiplayer play 
+Google Account Login – Enabling seamless sign-in with Google authentication  
+
+## Technologies Used
+Java 17+ – Core language for game logic and UI  
+JavaFX (FXML) – UI framework for desktop application
+MySQL – User authentication and session tracking  
+Maven – Dependency management  
+(Future) Python – AI-driven poker opponents  
+
+## How to Run  
+1. Clone the repository:
+   git clone https://github.com/yourusername/poker-game.git
+   cd poker-game
+
+2. Set up MySQL:
+  Create a database and configure Config.java
+  Import the provided SQL schema
+
+3. Run the application:
+  Using an IDE: Run App.java
+  Using Maven:
+    sh
+    Copy
+    Edit
+    mvn clean install
+    mvn javafx:run
