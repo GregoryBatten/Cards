@@ -1,0 +1,26 @@
+poker-game/
+│── src/
+│   ├── main/java/com/pokergame/
+│   │   ├── ui/             # JavaFX UI Components
+│   │   │   ├── LoginView.java
+│   │   │   ├── MainMenuView.java
+│   │   │   ├── PokerTableView.java
+│   │   │   └── components/  # Reusable UI components
+│   │   ├── controller/      # Business Logic & Game Flow
+│   │   │   ├── LoginController.java
+│   │   │   ├── GameController.java
+│   │   │   ├── PokerEngine.java
+│   │   ├── model/           # Data Models
+│   │   │   ├── User.java
+│   │   │   ├── Card.java
+│   │   │   ├── Deck.java
+│   │   │   ├── HandEvaluator.java
+│   │   ├── service/         # Database & Networking
+│   │   │   ├── AuthService.java
+│   │   │   ├── GameService.java
+│   │   │   ├── DatabaseConnector.java
+│   │   ├── util/            # Utilities (Logging, Configs, Helpers)
+│   │   ├── PokerApplication.java # Main entry point
+│── resources/               # FXML files, config files
+│── test/                    # JUnit tests
+│── pom.xml                   # Maven dependencies
