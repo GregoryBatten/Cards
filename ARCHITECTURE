@@ -1,26 +1,40 @@
-poker-game/
+Cards/
 │── src/
 │   ├── main/java/com/pokergame/
-│   │   ├── ui/             # JavaFX UI Components
-│   │   │   ├── LoginView.java
-│   │   │   ├── MainMenuView.java
-│   │   │   ├── PokerTableView.java
-│   │   │   └── components/  # Reusable UI components
-│   │   ├── controller/      # Business Logic & Game Flow
-│   │   │   ├── LoginController.java
-│   │   │   ├── GameController.java
-│   │   │   ├── PokerEngine.java
+│   │   ├── controller/      # JavaFX UI Components
+│   │   │   ├── BlackjackController.java
+│   │   │   ├── ChangePasswordController.java
+│   │   │   ├── CreateAccountController.java
+|   |   |   ├── LoginController.java
+|   |   |   ├── MainMenuController.java
+|   |   |   ├── SystemSettingsController.java
+|   |   |   ├── TexasHoldEmController.java
 │   │   ├── model/           # Data Models
-│   │   │   ├── User.java
 │   │   │   ├── Card.java
 │   │   │   ├── Deck.java
 │   │   │   ├── HandEvaluator.java
-│   │   ├── service/         # Database & Networking
+│   │   │   ├── User.java
+│   │   ├── service/         # Database management and game logic 
 │   │   │   ├── AuthService.java
-│   │   │   ├── GameService.java
-│   │   │   ├── DatabaseConnector.java
+│   │   │   ├── Blackjack.java
+│   │   │   ├── MySQLConnector.java
+│   │   │   ├── PythonConnector.java
+│   │   │   ├── SettingService.java
+│   │   │   ├── TexasHoldEm.java
+│   │   ├── ui/              # Reusable UI components
+│   │   │   ├── HUD.java
+│   │   │   ├── Popup.java
 │   │   ├── util/            # Utilities (Logging, Configs, Helpers)
-│   │   ├── PokerApplication.java # Main entry point
+│   │   │   ├── Config.java
+│   │   │   ├── Logger.java
+│   │   ├── App.java # Main entry point
 │── resources/               # FXML files, config files
+│   ├── Change Password.fxml
+│   ├── Create Account.fxml
+│   ├── default-settings.json
+│   ├── Login.fxml
+│   ├── Main Menu.fxml
+│   ├── settings.json
+│   ├── System Settings.fxml
 │── test/                    # JUnit tests
-│── pom.xml                   # Maven dependencies
+│── pom.xml                  # Maven dependencies
