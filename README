@@ -24,8 +24,8 @@ Maven – Dependency management
 
 ## How to Run  
 1. Clone the repository:
-   git clone https://github.com/yourusername/poker-game.git
-   cd poker-game
+   git clone https://github.com/GregoryBatten/Cards.git
+   cd Cards
 
 2. Set up MySQL:
   Create a database and configure Config.java
