@@ -8,9 +8,9 @@ A professional-grade card games application built with Java and MySQL, designed 
 ✔ Dynamic JavaFX UI
 ✔ Modular architecture for scalability  
 
-## Roadmap: What’s Next?
-Machine Learning AI Opponents (Python-based) – Implementing AI-driven poker players for dynamic and competitive play 
-Multiple Poker Variants – Expanding beyond Texas Hold’em to include games like Blackjack
+## Roadmap: What’s Next? 
+Multiple Game Variants – Expanding beyond Texas Hold’em to include games like Blackjack
+Machine Learning AI Opponents (Python-based) – Implementing AI-driven poker players for dynamic and competitive play
 Secure Authentication & Email Automation – Implementing secure password storage and automated verification emails  
 Web Hosting – Deploying the game online for accessibility beyond desktop and multiplayer play 
 Google Account Login – Enabling seamless sign-in with Google authentication  
