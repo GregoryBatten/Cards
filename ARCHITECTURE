@@ -1,40 +1,45 @@
 Cards/
 │── src/main/
-│   ├── java/io/github/gregorybatten/
-│   │   ├── controller/      # JavaFX UI Components
-│   │   │   ├── BlackjackController.java
-│   │   │   ├── ChangePasswordController.java
-│   │   │   ├── CreateAccountController.java
-│   │   │   ├── LoginController.java
-│   │   │   ├── MainMenuController.java
-│   │   │   ├── SystemSettingsController.java
-│   │   │   ├── TexasHoldEmController.java
-│   │   ├── model/           # Data Models
-│   │   │   ├── Card.java
-│   │   │   ├── Deck.java
-│   │   │   ├── HandEvaluator.java
-│   │   │   ├── User.java
-│   │   ├── service/         # Database management and game logic 
-│   │   │   ├── AuthService.java
-│   │   │   ├── Blackjack.java
-│   │   │   ├── MySQLConnector.java
-│   │   │   ├── PythonConnector.java
-│   │   │   ├── SettingService.java
-│   │   │   ├── TexasHoldEm.java
-│   │   ├── ui/              # Reusable UI components
-│   │   │   ├── HUD.java
-│   │   │   ├── Popup.java
-│   │   ├── util/            # Utilities (Logging, Configs, Helpers)
-│   │   │   ├── Config.java
-│   │   │   ├── Logger.java
-│   │   ├── App.java         # Main entry point
-│   │── resources/           # FXML files, config files
-│   │   ├── Change Password.fxml
-│   │   ├── Create Account.fxml
-│   │   ├── default-settings.json
-│   │   ├── Login.fxml
-│   │   ├── Main Menu.fxml
-│   │   ├── settings.json
-│   │   ├── System Settings.fxml
-│── test/                    # JUnit tests
-│── pom.xml                  # Maven dependencies
+│   ├── java/
+│   │   ├── module-info.java     # Defines Java module
+│   │   ├── java/io/github/gregorybatten/
+│   │   │   ├── controller/      # JavaFX UI Components
+│   │   │   │   ├── BlackjackController.java
+│   │   │   │   ├── ChangePasswordController.java
+│   │   │   │   ├── CreateAccountController.java
+│   │   │   │   ├── LoginController.java
+│   │   │   │   ├── MainMenuController.java
+│   │   │   │   ├── SystemSettingsController.java
+│   │   │   │   ├── TexasHoldEmController.java
+│   │   │   ├── game/           # Game Models
+│   │   │   │   ├── Blackjack.java
+│   │   │   │   ├── TexasHoldEm.java
+│   │   │   ├── model/           # Data Models
+│   │   │   │   ├── Card.java
+│   │   │   │   ├── Deck.java
+│   │   │   │   ├── HandEvaluator.java
+│   │   │   │   ├── User.java
+│   │   │   ├── service/         # Database management and backend services
+│   │   │   │   ├── AuthService.java
+│   │   │   │   ├── MySQLConnector.java
+│   │   │   │   ├── PythonConnector.java
+│   │   │   │   ├── SettingService.java
+│   │   │   ├── ui/              # Reusable UI components
+│   │   │   │   ├── HUD.java
+│   │   │   │   ├── Popup.java
+│   │   │   ├── util/            # Utilities (Logging, Configs, Helpers)
+│   │   │   │   ├── Config.java
+│   │   │   │   ├── Logger.java
+│   │   │   ├── App.java         # Main entry point
+│   │── resources/io/github/gregorybatten/
+│   │   ├── config/              # Configuration files
+│   │   │   ├── default-settings.json
+│   │   │   ├── dsettings.json
+│   │   ├── fxml/                # Fxml scenes
+│   │   │   ├── Change Password.fxml
+│   │   │   ├── Create Account.fxml
+│   │   │   ├── Login.fxml
+│   │   │   ├── Main Menu.fxml
+│   │   │   ├── System Settings.fxml
+│── test/                       # JUnit tests
+│── pom.xml                     # Maven dependencies

@@ -29,7 +29,7 @@ public class SettingService {
 
     // Get setting directly from file (no fallback handling)
     private static String getSettingHelper(String key) {
-        File settingsFile = Config.getFile("settings.json");
+        File settingsFile = Config.getFile("config/settings.json");
 
         if (!settingsFile.exists()) {
             Logger.log("settings.json not found at " + settingsFile.getAbsolutePath());
@@ -63,7 +63,7 @@ public class SettingService {
 
     // Set setting directly to file (no fallback handling)
     private static boolean setSettingHelper(String key, String value) {
-        File settingsFile = Config.getFile("settings.json");
+        File settingsFile = Config.getFile("config/settings.json");
 
         try {
             // Ensure the parent directory exists
@@ -88,8 +88,8 @@ public class SettingService {
 
     // Restores default-settings.json to settings.json (replaces existing settings.json)
     private static void restoreDefaultSettings() {
-        File defaultFile = Config.getFile("default-settings.json");
-        File settingsFile = Config.getFile("settings.json");
+        File defaultFile = Config.getFile("config/default-settings.json");
+        File settingsFile = Config.getFile("config/settings.json");
 
         if (!defaultFile.exists()) {
             Logger.log("Default settings file missing! Cannot restore settings.");
