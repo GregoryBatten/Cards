@@ -2,7 +2,7 @@ Cards/
 │── src/main/
 │   ├── java/
 │   │   ├── module-info.java     # Defines Java module
-│   │   ├── java/io/github/gregorybatten/
+│   │   ├── io/github/gregorybatten/
 │   │   │   ├── controller/      # JavaFX UI Components
 │   │   │   │   ├── BlackjackController.java
 │   │   │   │   ├── ChangePasswordController.java
