@@ -5,10 +5,10 @@ Cards/
 │   │   │   ├── BlackjackController.java
 │   │   │   ├── ChangePasswordController.java
 │   │   │   ├── CreateAccountController.java
-|   |   |   ├── LoginController.java
-|   |   |   ├── MainMenuController.java
-|   |   |   ├── SystemSettingsController.java
-|   |   |   ├── TexasHoldEmController.java
+│   │   │   ├── LoginController.java
+│   │   │   ├── MainMenuController.java
+│   │   │   ├── SystemSettingsController.java
+│   │   │   ├── TexasHoldEmController.java
 │   │   ├── model/           # Data Models
 │   │   │   ├── Card.java
 │   │   │   ├── Deck.java
