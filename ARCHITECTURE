@@ -1,6 +1,6 @@
 Cards/
-│── src/
-│   ├── main/java/com/pokergame/
+│── src/main/
+│   ├── java/io/github/gregorybatten/
 │   │   ├── controller/      # JavaFX UI Components
 │   │   │   ├── BlackjackController.java
 │   │   │   ├── ChangePasswordController.java
@@ -27,14 +27,14 @@ Cards/
 │   │   ├── util/            # Utilities (Logging, Configs, Helpers)
 │   │   │   ├── Config.java
 │   │   │   ├── Logger.java
-│   │   ├── App.java # Main entry point
-│── resources/               # FXML files, config files
-│   ├── Change Password.fxml
-│   ├── Create Account.fxml
-│   ├── default-settings.json
-│   ├── Login.fxml
-│   ├── Main Menu.fxml
-│   ├── settings.json
-│   ├── System Settings.fxml
+│   │   ├── App.java         # Main entry point
+│   │── resources/           # FXML files, config files
+│   │   ├── Change Password.fxml
+│   │   ├── Create Account.fxml
+│   │   ├── default-settings.json
+│   │   ├── Login.fxml
+│   │   ├── Main Menu.fxml
+│   │   ├── settings.json
+│   │   ├── System Settings.fxml
 │── test/                    # JUnit tests
 │── pom.xml                  # Maven dependencies
